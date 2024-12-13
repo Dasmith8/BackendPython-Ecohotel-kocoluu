@@ -1,0 +1,310 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "buenos dias", "hey", "que tal", "saludos"],
+      "responses": [
+        "Hola! Como estas?",
+        "Buenos dias! Como puedo ayudarte hoy?",
+        "Hola! Bienvenido al ecohotel."
+      ]
+    },
+    {
+      "tag": "nombre",
+      "patterns": ["como es tu nombre", "como te llamas"],
+      "responses": [
+        "Me llamo Koco, tu asistente virtual en el ecohotel.",
+        "Mi nombre es Koco, y soy tu guia durante tu estadia."
+      ]
+    },
+    {
+      "tag": "presentacion",
+      "patterns": ["quien eres", "en que me puedes servir", "que haces aqui"],
+      "responses": [
+        "Soy Koco, tu asistente virtual del ecohotel. Estoy aqui para ayudarte con informacion sobre tu estadia.",
+        "Mi nombre es Koco y soy tu asistente virtual en el ecohotel. En que puedo ayudarte hoy?"
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": [
+        "ayuda",
+        "necesito ayuda",
+        "por favor, ayudame",
+        "puedes ayudarme",
+        "tengo un problema"
+      ],
+      "responses": [
+        "Claro, en que puedo ayudarte?",
+        "Por supuesto, como puedo asistirte hoy?",
+        "Estoy aqui para ayudarte, que necesitas?"
+      ]
+    },
+    {
+      "tag": "reservar_habitacion",
+      "patterns": [
+        "quiero reservar una habitacion",
+        "como puedo reservar una habitacion",
+        "reservar habitacion",
+        "necesito una habitacion",
+        "quiero hacer una reserva"
+      ],
+      "responses": [
+        "Claro! Para hacer una reserva, puedes indicarme la fecha en la que deseas hospedarte?",
+        "Entendido. Cual es la fecha de tu estancia? Que tipo de habitacion prefieres?"
+      ]
+    },
+    {
+      "tag": "tipo_acomodacion",
+      "patterns": [
+        "que tipos de acomodacion ofrecen",
+        "que paquetes tienen",
+        "que opciones de hospedaje tienen",
+        "que incluye el hospedaje",
+        "que diferencia hay entre los tipos de acomodacion",
+        "como son las habitaciones ecologicas"
+      ],
+      "responses": [
+        "Ofrecemos tres tipos de acomodacion ecologica: multiple, pareja e individual. Todas tienen un precio de $314000 por noche por persona, con las tres comidas incluidas.",
+        "En el ecohotel tenemos habitaciones ecologicas con materiales sustentables. Te gustaria saber mas sobre nuestras opciones?"
+      ]
+    },
+    {
+      "tag": "cantidad_personas_dias",
+      "patterns": [
+        "cuantas personas pueden hospedarse",
+        "cuanto cuesta por varias personas",
+        "quiero reservar para varias personas",
+        "quiero saber el costo total de la reserva",
+        "cuantos dias puedo reservar",
+        "cual es el precio por persona"
+      ],
+      "responses": [
+        "Cuantas personas se hospedaran y cuantos dias planeas quedarte? Con esta informacion, puedo calcular el costo total de la reserva.",
+        "Por favor, dime la cantidad de personas y la duracion de la estancia para calcular el precio total."
+      ]
+    },
+    {
+      "tag": "total_reserva",
+      "patterns": [
+        "cuanto es el total de la reserva",
+        "cuanto costara todo",
+        "cual es el precio final",
+        "quiero saber el total"
+      ],
+      "responses": [
+        "El costo total de tu reserva se calcula multiplicando el precio por persona por la cantidad de noches y de personas. Quieres que te lo calcule con la informacion que me diste?",
+        "Para calcular el costo total, necesito saber si eliges el paquete con comidas ($314000 por noche por persona) o solo el hospedaje ($280000 por noche por persona), ademas de la cantidad de personas y noches."
+      ]
+    },
+    {
+      "tag": "amenidades_eco",
+      "patterns": [
+        "que actividades ecologicas ofrecen",
+        "que actividades medioambientales tienen",
+        "tienen actividades ecologicas en el hotel",
+        "que servicios sostenibles tienen"
+      ],
+      "responses": [
+        "En nuestro ecohotel, ofrecemos actividades como caminatas guiadas por la naturaleza, reciclaje, talleres de compostaje y mucho mas.",
+        "Contamos con actividades sostenibles, como senderismo ecologico, visitas a huertos organicos y clases sobre sostenibilidad ambiental."
+      ]
+    },
+    {
+      "tag": "alimentacion_ecologica",
+      "patterns": [
+        "que tipo de comida sirven",
+        "que opciones de comida tienen",
+        "tienen comida organica",
+        "es la comida del hotel ecologica"
+      ],
+      "responses": [
+        "Ofrecemos menus ecologicos y organicos, preparados con productos locales y de temporada. Tienes alguna preferencia alimentaria?",
+        "En nuestro hotel, toda la comida es organica y sostenible. Utilizamos ingredientes frescos de productores locales."
+      ]
+    },
+    {
+      "tag": "politicas_sostenibilidad",
+      "patterns": [
+        "como practican la sostenibilidad",
+        "que hacen por el medio ambiente",
+        "que politicas ecologicas siguen",
+        "tienen politicas verdes"
+      ],
+      "responses": [
+        "En nuestro ecohotel, seguimos estrictas politicas de sostenibilidad: reciclaje, ahorro de energia, y uso de productos biodegradables.",
+        "Nuestro compromiso con el medio ambiente incluye practicas como la reutilizacion de aguas grises, energia solar y el uso de materiales reciclables."
+      ]
+    },
+    {
+      "tag": "servicios_eco",
+      "patterns": [
+        "que servicios ecologicos ofrecen",
+        "tienen transporte ecologico",
+        "ofrecen bicicletas o transportes verdes"
+      ],
+      "responses": [
+        "Si, ofrecemos transporte ecologico como bicicletas y coches electricos para moverte por el area.",
+        "Contamos con transporte verde como bicicletas y vehiculos electricos para que tu estancia sea aun mas ecologica."
+      ]
+    },
+    {
+      "tag": "checkin_checkout",
+      "patterns": [
+        "a que hora es el check-in",
+        "a que hora es el check-out",
+        "cual es la hora de entrada",
+        "que hora es el horario de salida"
+      ],
+      "responses": [
+        "El horario de check-in es a partir de las 3:00 PM y el check-out debe realizarse antes de las 12:00 PM.",
+        "Puedes hacer el check-in a partir de las 3:00 PM y debes hacer el check-out antes de las 12:00 PM."
+      ]
+    },
+    {
+      "tag": "informacion_general",
+      "patterns": [
+        "que es un ecohotel",
+        "que significa ser un ecohotel",
+        "por que se llama ecohotel",
+        "que hace especial a este hotel"
+      ],
+      "responses": [
+        "Un ecohotel es un establecimiento comprometido con la sostenibilidad y el respeto al medio ambiente. Usamos practicas ecologicas como el reciclaje, la eficiencia energetica y el uso de materiales sostenibles.",
+        "Este ecohotel se distingue por su compromiso con el medio ambiente, utilizando tecnologias verdes y practicas que ayudan a preservar nuestro entorno natural."
+      ]
+    },
+    {
+      "tag": "actividades_de_ocio",
+      "patterns": [
+        "que actividades puedo hacer en el hotel",
+        "tienen actividades recreativas",
+        "que puedo hacer durante mi estadia"
+      ],
+      "responses": [
+        "Ofrecemos actividades como yoga al aire libre, senderismo, meditacion, y talleres sobre sostenibilidad.",
+        "Ademas de nuestras actividades ecologicas, puedes disfrutar de relajantes sesiones de spa, clases de cocina saludable y explorar los alrededores a traves de rutas ecologicas."
+      ]
+    },
+    {
+      "tag": "politica_de_cancelacion",
+      "patterns": [
+        "cual es la politica de cancelacion",
+        "como puedo cancelar mi reserva",
+        "puedo cambiar las fechas de mi reserva"
+      ],
+      "responses": [
+        "Nuestra politica de cancelacion permite cambios y cancelaciones hasta 24 horas antes de la llegada sin cargo adicional. Si necesitas cambiar las fechas, por favor, haznoslo saber lo antes posible.",
+        "Puedes cancelar o modificar tu reserva hasta 24 horas antes de la llegada. Despues de ese tiempo, se aplicara un cargo por cancelacion."
+      ]
+    },
+    {
+      "tag": "ofertas_y_promociones",
+      "patterns": [
+        "tienen alguna oferta o promocion",
+        "hay descuentos para grupos",
+        "que promociones tienen en este momento"
+      ],
+      "responses": [
+        "Ofrecemos descuentos especiales para grupos grandes y estancias largas. Tambien tenemos promociones para clientes frecuentes.",
+        "Por ahora, estamos ofreciendo un descuento del 15% para estancias de mas de 3 noches. Te gustaria saber mas?"
+      ]
+    },
+    {
+      "tag": "pago_y_facturacion",
+      "patterns": [
+        "como puedo pagar mi reserva",
+        "aceptan tarjetas de credito",
+        "puedo pagar en efectivo"
+      ],
+      "responses": [
+        "Aceptamos pagos con tarjeta de credito, debito y en efectivo. Tambien puedes pagar a traves de transferencia bancaria.",
+        "Puedes pagar con tarjeta de credito o debito, o si prefieres, podemos hacer el pago en efectivo durante el check-in."
+      ]
+    },
+    {
+      "tag": "accesibilidad",
+      "patterns": [
+        "el hotel es accesible para personas con discapacidad",
+        "tienen habitaciones adaptadas",
+        "hay rampas o elevadores"
+      ],
+      "responses": [
+        "Si, el ecohotel esta completamente adaptado para personas con discapacidad. Contamos con habitaciones especiales y accesos adecuados para asegurar la comodidad de todos nuestros huespedes.",
+        "Tenemos habitaciones adaptadas y todas las instalaciones son accesibles, incluyendo rampas y ascensores."
+      ]
+    },
+    {
+      "tag": "transporte_aeropuerto",
+      "patterns": [
+        "ofrecen transporte al aeropuerto",
+        "como puedo llegar al hotel desde el aeropuerto",
+        "tienen servicio de transporte"
+      ],
+      "responses": [
+        "Si, ofrecemos un servicio de transporte ecologico al aeropuerto. Puedes reservarlo con anticipacion para que te recojamos a tu llegada.",
+        "Contamos con un servicio de transporte al aeropuerto. Puedes reservarlo al hacer tu check-in o contactar a nuestro equipo para mas detalles."
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "tienen wifi en el hotel",
+        "es gratuito el wifi",
+        "donde puedo conectarme a internet"
+      ],
+      "responses": [
+        "Si, ofrecemos wifi gratuito en todo el hotel, incluyendo habitaciones y areas comunes.",
+        "El acceso a wifi es completamente gratuito. Puedes conectarte en cualquier lugar del hotel usando la red principal."
+      ]
+    },
+    {
+      "tag": "pet_friendly",
+      "patterns": [
+        "el hotel acepta mascotas",
+        "puedo llevar a mi perro al hotel",
+        "tienen politicas para mascotas"
+      ],
+      "responses": [
+        "Si, somos un hotel pet-friendly. Aceptamos mascotas en nuestras habitaciones, pero por favor avisanos con anticipacion.",
+        "Trae a tu mascota sin preocupaciones. Tenemos areas especialmente diseñadas para ellos, y aseguramos que esten comodos durante su estancia."
+      ]
+    },
+    {
+      "tag": "recomendaciones_locales",
+      "patterns": [
+        "que lugares turisticos hay cerca",
+        "donde puedo ir en los alrededores del hotel",
+        "que actividades recomiendan cerca del hotel"
+      ],
+      "responses": [
+        "Cerca de nuestro ecohotel, puedes disfrutar de rutas de senderismo, visitar parques naturales y explorar la fauna local. Tambien hay varios mercados de productores organicos.",
+        "Te recomendamos visitar la reserva natural cercana, hacer un tour en bicicleta por la region o disfrutar de una experiencia gastronomica en los mercados organicos de la zona."
+      ]
+    },
+    {
+      "tag": "seguridad",
+      "patterns": [
+        "el hotel es seguro",
+        "tienen medidas de seguridad",
+        "como protegen a los huespedes"
+      ],
+      "responses": [
+        "La seguridad de nuestros huespedes es nuestra prioridad. Contamos con camaras de seguridad, personal capacitado y acceso restringido a las areas privadas.",
+        "El hotel tiene medidas de seguridad estrictas, incluyendo vigilancia 24/7, cerraduras electronicas en las habitaciones y un sistema de acceso controlado."
+      ]
+    },
+    {
+      "tag": "habitaciones_disponibles",
+      "patterns": [
+        "tienen habitaciones disponibles para el fin de semana",
+        "hay habitaciones libres para el proximo mes",
+        "como puedo saber si hay disponibilidad"
+      ],
+      "responses": [
+        "Para saber si tenemos habitaciones disponibles, por favor indicame las fechas de tu estadia y el tipo de habitacion que prefieres.",
+        "Puedes verificar la disponibilidad de habitaciones en nuestro sitio web o reservar directamente con nosotros."
+      ]
+    }
+  ]
+}
